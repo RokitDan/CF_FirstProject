@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Marvel Fan Page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Marvel Fan Page</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/page2.html">Page 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/page3.html">Page 3</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="marvel.html"
+                  >Marvel Fan Page</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <section>
+        <div>
+          <h1>THIS IS A MARVEL FAN PAGE</h1>
+          <img class="logoImage" src="/img/Marvel_Logo.png" alt="Marvel Logo" />
+          <section id="listOfHeroes">
+            <h2 id="heroText">List of Heroes</h2>
+            <table class="table table-striped">
+              <tr>
+                <th>Super Hero</th>
+                <th>Alter Ego</th>
+                <th>Powers</th>
+                <th>Photo</th>
+              </tr>
+              <tr>
+                <td>Dr. Strange</td>
+                <td>Stephen Strange</td>
+                <td>
+                  <ul>
+                    <li>Manipulate Timespace</li>
+                    <li>Trap Enemies in Time Loops</li>
+                  </ul>
+                </td>
+                <td>
+                  <a href="#drStrange"><img
+                    
+                    class="tableHeroImage img-fluid"
+                    src="/img/drstrange.jpg"
+                    alt="Dr. Strange Photo"
+                  /></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Captain America</td>
+                <td>Steve Rogers</td>
+                <td>
+                  <ul>
+                    <li>Enhanced Strength</li>
+                    <li>Slowed Aging</li>
+                    <li>Accelerated Healing</li>
+                  </ul>
+                </td>
+                <td>
+                 <a href="#captainAmerica"
+                    > <img
+                    src="/img/Chris-Evans-title-character-Joe-Johnston-Captain.webp"
+                    class="tableHeroImage img-fluid"
+                    alt="Captain America Photo"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Captain Marvel</td>
+                <td>Carol Danvers</td>
+                <td>
+                  <ul>
+                    <li>Enhanced Strength and Speed</li>
+                    <li>Immunity to Toxins and Poisons</li>
+                    <li>Flight</li>
+                  </ul>
+                </td>
+                <td>
+                  <a href="#captainMarvel"
+                    ><img
+                    src="/img/Brie-Larson-Captain-Marvel-feature-900x506.jpg"
+                    class="tableHeroImage img-fluid"
+                    alt="Captain Marvel Photo"
+                  /></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Iron Man</td>
+                <td>Tony Stark</td>
+                <td>
+                  <ul>
+                    <li>Enhanced Strength and Speed</li>
+                    <li>Wide Array of Weapons</li>
+                    <li>Flight</li>
+                  </ul>
+                </td>
+                <td>
+                  <a href="#ironMan"
+                    ><img
+                      src="/img/ironman-bleeding-edge.jpg"
+                      class="tableHeroImage img-fluid"
+                      alt="Iron Man Photo"
+                  /></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Luke Cage</td>
+                <td>Luke Cage</td>
+                <td>
+                  <ul>
+                    <li>Super-human Strength</li>
+                    <li>Super-human Stamina</li>
+                    <li>Bullet-proof skin</li>
+                  </ul>
+                </td>
+                <td>
+                  <a href="#lukeCage"
+                    ><img
+                    src="/img/luke_cage_by_namkoart_dal2x95-fullview.jpg"
+                    class="tableHeroImage img-fluid"
+                    alt="Luke Cage Photo"
+                  /></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Spider-man</td>
+                <td>Peter Parker</td>
+                <td>
+                  <ul>
+                    <li>Slings Webs</li>
+                    <li>Climbs Walls</li>
+                    <li>Spidey-sense</li>
+                  </ul>
+                </td>
+                <td>
+                  <a href="#spiderMan"
+                    ><img
+                      src="/img/spiderman.webp"
+                      class="tableHeroImage img-fluid"
+                      alt="Spider-man Photo"
+                  /></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Wolverine</td>
+                <td>James Howlett aka Logan</td>
+                <td>
+                  <ul>
+                    <li>Super-human Strength</li>
+                    <li>Enhance Senses</li>
+                    <li>Rapid Healing</li>
+                    <li>Slowed Aging</li>
+                  </ul>
+                </td>
+                <td>
+                  <a href="#wolverine"
+                    ><img
+                    src="/img/Wolverine.jpg"
+                    class="tableHeroImage img-fluid"
+                    alt="Wolverine Photo"
+                  /></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Moon Knight</td>
+                <td>Marc Spector/Steven Grant</td>
+                <td>
+                  <ul>
+                    <li>Expert Fighting Abilities</li>
+                    <li>Weapons Expertise</li>
+                    <li>Impressive Athletics</li>
+                  </ul>
+                </td>
+                <td>
+                 <a href="#moonKnight"
+                    > <img
+                    src="/img/Moonknight.jpg"
+                    class="tableHeroImage img-fluid"
+                    alt="Moon Knight Photo"
+                  /></a>
+                </td>
+              </tr>
+            </table>
+          </section>
+          <!-- -------- -->
+          <hr />
+          <!-- -------- -->
+          <img
+            src="/img/Marvel_Logo.png"
+            alt="Marvel Logo"
+            class="img-fluid logoImage"
+          />
+
+          <div class="marvelCharacters" id="drStrange">
+            <img
+              src="/img/drstrange.jpg"
+              alt="Dr. Strange Photo"
+              class="img-fluid superHeroPhotos"
+            />
+            <h2 class="text-center heroName">Dr. Strange</h2>
+            <p>
+              Strange was a skilled neurosurgeon before nerve damage impaired
+              his hands. Doctor Strange is described as "the mightiest magician
+              in the cosmos" and "more powerful by far than any of your fellow
+              humanoids" by Eternity, the sentience of the Marvel Universe.
+            </p>
+          </div>
+          <div class="marvelCharacters" id="captainAmerica">
+            <img
+              src="/img/Chris-Evans-title-character-Joe-Johnston-Captain.webp"
+              alt="Captain America Photo"
+              class="img-fluid superHeroPhotos"
+            />
+            <h2 class="text-center heroName">Captain America</h2>
+            <p>
+              Envious of his friend Bucky Barnes’ military enlistment, and
+              undeterred by his own multiple rejections by the U.S. Army,
+              physical weakling Steve Rogers made one more attempt to join the
+              march of men to fight for their country in the dark days of World
+              War II. Rogers’ valiant wish to fight bullies wherever they were
+              grabbed the attention of scientist Dr. Abraham Erskine, and he
+              handpicked the idealistic young man for the Army’s Super-Soldier
+              program under his supervision.
+            </p>
+          </div>
+          <div class="marvelCharacters" id="captainMarvel">
+            <img
+              src="/img/Brie-Larson-Captain-Marvel-feature-900x506.jpg"
+              alt="Captain Marvel Photo"
+              class="img-fluid superHeroPhotos"
+            />
+            <h2 class="text-center heroName">Captain Marvel</h2>
+            <p>
+              Former Air Force pilot and intelligence agent Carol Danvers
+              pursued her dream of space exploration as a NASA employee, but her
+              life forever changed when she was accidentally transformed into a
+              human-Kree hybrid with extraordinary powers.
+            </p>
+          </div>
+          <div class="marvelCharacters" id="ironMan">
+            <img
+              src="/img/ironman-bleeding-edge.jpg"
+              alt="Iron Man Photo"
+              class="img-fluid superHeroPhotos"
+            />
+            <h2 class="text-center heroName">Iron Man</h2>
+            <p>
+              Genius inventor Tony Stark continued his father Howard Stark’s
+              weaponry business after his parents’ untimely deaths and flew it
+              to even greater heights of innovation. While in Afghanistan to
+              demonstrate a new missile for the U.S. military, Stark’s convoy
+              came under fire by a terrorist group known as the Ten Rings and he
+              was severely wounded. Taken prisoner by the group, Stark awoke in
+              their headquarters to learn that shrapnel near his heart had
+              nearly cost him his life, but swift action by scientist and fellow
+              prisoner Ho Yinsen—who had inserted a powerful electromagnet in
+              Stark’s chest—would prolong it temporarily.
+            </p>
+          </div>
+          <div class="marvelCharacters" id="lukeCage">
+            <img
+              src="/img/luke_cage_by_namkoart_dal2x95-fullview.jpg"
+              alt="Luke Cage Photo"
+              class="img-fluid superHeroPhotos"
+            />
+            <h2 class="text-center heroName">Luke Cage</h2>
+            <p>
+              Incarcerated for a crime he didn’t commit, the man who would
+              become known as Luke Cage underwent a procedure that gave him
+              incredible strength and bulletproof skin.
+            </p>
+          </div>
+          <div class="marvelCharacters" id="spiderMan">
+            <img
+              src="/img/spiderman.webp"
+              alt="Spider-Man Photo"
+              class="img-fluid superHeroPhotos"
+            />
+            <h2 class="text-center heroName">Spider-man</h2>
+            <p>
+              A bite from a spider somehow granted teenager Peter Parker its
+              arachnid abilities and instead of using them for personal gain, he
+              decided to help others with them. An orphan living with his aunt,
+              May Parker, the boy chose to wear a mask while fighting crime so
+              as not to burden her with his actions.
+            </p>
+          </div>
+          <div class="marvelCharacters" id="wolverine">
+            <img
+              src="/img/Wolverine.jpg"
+              alt="Wolverine Photo"
+              class="img-fluid superHeroPhotos"
+            />
+            <h2 class="text-center heroName">Wolverine</h2>
+            <p>
+              James Howlett was born to wealthy John and Elizabeth Howlett in
+              Alberta, Canada, during the last years of the 19th century. As a
+              child, he was frail and unhealthy due to his overactive mutant
+              immune system and was neglected by his mother, who had been
+              institutionalized following the death of her first son, John Jr.,
+              in 1897. James’s mutant abilities were triggered when his father
+              was shot by the Howlett groundskeeper Thomas Logan, whom he did
+              not know was his real father. James killed Logan, slashed the face
+              of Logan’s son and his friend Dog, and left Alberta with a
+              childhood friend, Rose O’Hara.
+            </p>
+          </div>
+          <div class="marvelCharacters" id="moonKnight">
+            <img
+              src="/img/Moonknight.jpg"
+              alt="Moon Knight Photo"
+              class="img-fluid superHeroPhotos"
+            />
+            <h2 class="text-center heroName">Moon Knight</h2>
+            <p>
+              Steven Grant discovers he has dissociative identity disorder and
+              shares a body with mercenary Marc Spector. As enemies converge
+              upon them, they must navigate their complex identities while
+              thrust into a deadly mystery among powerful gods of Egypt.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- JavaScript Bundle with Popper -->
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

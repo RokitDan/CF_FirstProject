@@ -1,0 +1,68 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logoImage {
+  max-width: 200px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: rgb(213, 30, 30);
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-top: 20px;
+}
+
+.heroName {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  margin-top: -4rem;
+  padding-bottom: 30px;
+  color: azure;
+  text-shadow: 0px 0px 12px black;
+}
+
+#heroText {
+  font-family: "Impact", "Roboto", sans-serif;
+  font-size: 4rem;
+  color: rgb(255, 0, 0);
+  text-shadow: 2px 1px #292929;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: yellow;
+  text-align: center;
+  margin-top: 55px;
+  text-transform: uppercase;
+}
+.marvelCharacters {
+  margin-top: 4rem;
+  text-align: left;
+  border-bottom: 4px dotted lightgray;
+  padding-bottom: 20px;
+}
+
+img {
+}
+
+.superHeroPhotos {
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px lightgray;
+  max-width: 400px;
+  margin-bottom: 1rem;
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableHeroImage {
+  max-width: 300px;
+  border-radius: 10px;
+}
